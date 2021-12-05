@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Inconsolata", monospace;
+}
+
+.wrapper header {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #FCA5A5;
+}
+
+.wrapper main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper main textarea,
+.wrapper main .translated-text {
+    margin: 1.5rem 0rem;
+    height: 100px;
+    width: 400px;
+    max-width: 600px;
+    padding: 1rem;
+    border: 2px solid black;
+
+}
+
+.wrapper main button {
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font: 1.2rem bold;
+    background-color: #FCA5A5
+    ;
+    cursor: pointer;
+}
+
+.wrapper main button:hover {
+    border: 1px solid black;
+}
+
+.wrapper .translated-text {
+    margin-top: 1rem;
+}
+
+.wrapper footer {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #FCA5A5
+    ;
+}
+
+.wrapper footer h2 {
+    margin-bottom: 1rem;
+}
+
+.wrapper footer p {
+    max-width: 800px;
+    margin: 0 auto;
+}
